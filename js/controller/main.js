@@ -177,6 +177,9 @@ app.config([ "$locationProvider", function($locationProvider) {
 		  $scope.changePlayer = function(player) {
 			qCommon.changePlayer($scope, player);
 		  };
+		  
+		  /* decoration - 装飾用クラスリストを取得する　*/
+		  $scope.decoration = round.decoration;
 
 		  /*********************************************************************
 		   * 読み込み対象のファイルを全て読み込み終えたら実行される処理（事実上のメイン処理）
@@ -326,7 +329,7 @@ app.config([ "$locationProvider", function($locationProvider) {
 
 	  /* moveDown - メンバーを最下段に移動 */
 	  $scope.moveDown = function(index) {
-		for (var i = index; i <= 4; i++) {
+		for (var i = index; i <= 5; i++) {
 		  swapKey('name' + (i), 'name' + (i + 1));
 		  swapKey('handleName' + (i), 'handleName' + (i + 1));
 		  swapKey('torii' + (i), 'torii' + (i + 1));

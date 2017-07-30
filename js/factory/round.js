@@ -18,6 +18,7 @@ app.factory('round', [ 'qCommon', 'rule', '$filter', function(qCommon, rule, $fi
   round.global_actions = rule.global_actions;
   round.items = rule.items;
   round.head = rule.head;
+  round.decoration = decoration;
 
   /*****************************************************************************
    * 判定関数
@@ -88,6 +89,25 @@ app.factory('round', [ 'qCommon', 'rule', '$filter', function(qCommon, rule, $fi
 	rule.calc(players, header, items, property);
 
   }
+  
+  /*****************************************************************************
+   * 装飾用クラスの判定・返却
+   * 
+   * @memberOf round
+   * @param {array} player - プレイヤー情報
+   * @param {array} item - アイテム情報
+   * @return {array} - 装飾用クラスのリスト
+   ****************************************************************************/
+  function decoration(player, item) {
+	var deco = [];
+	angular.forEach(rule.decor, function(d){
+	  if(player[d] && item[d]){
+		deco.push(d);
+	  }
+	})
+	return deco;
+  }
+  
   /*****************************************************************************
    * actions - プレイヤー毎に設定する操作の設定
    ****************************************************************************/

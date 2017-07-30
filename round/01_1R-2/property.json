@@ -1,13 +1,34 @@
 [
 	{
-		"title": "1Round : Take-off",
-		"maxRankDisplay": 5,
+		"title": "予選",
+		"maxRankDisplay": 2,
 		"openRankArray": null,
-		"winningPoint": 5,
-		"losingPoint": 3,
-		"penalty": 0,
-		"tweetRoundTitle": "[1R]",
-		"lots": [1, 2, 3, 4, 5],
-		"norma": [1, 1, 1, 1, 1]
+		"winningPoint": null,
+		"losingPoint": null,
+		"penalty": null,
+		"tweetRoundTitle": "[予選]",
+		"lots": [1, 2, 3, 4, 5, 6],
+		"steps": [1, 2, 3],
+		"lotQCount": [
+			{
+			}, {
+				"qCount": [1, 10],
+				"lot": [1, 4],
+				"o": 1,
+				"x": 1
+			}
+			, {
+				"qCount": [11, 20],
+				"lot": [2, 5],
+				"o": 1,
+				"x": 1
+			}
+			, {
+				"qCount": [21, 30],
+				"lot": [3, 6],
+				"o": 2,
+				"x": 2
+			}
+		]
 	}
 ]

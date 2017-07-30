@@ -1,0 +1,8 @@
+[
+	{
+		"source": [
+		{"source":"02_SF","filter":{"param":"rank","oper":"~","crit":1,"crit2":4},"order":["rank"]}
+		],
+		"profile": true
+	}
+]

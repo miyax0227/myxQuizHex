@@ -906,7 +906,7 @@ app
 		}).length == 1) {
 		  return scope.current.players.filter(function(player) {
 			return player.rank == 1;
-		  })[0].name;
+		  })[0];
 		} else {
 		  return null;
 		}

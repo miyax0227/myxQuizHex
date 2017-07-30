@@ -19,10 +19,10 @@
           <input class="form-control" ng-model="selectPlayer[item.key]" ng-init="selectPlayer[item.key]=''">
           </input> </td>
           -->
-          <td rowspan="5">
+          <td rowspan="6">
           <input class="form-control" ng-model="selectPlayer['entryNo']" ng-init="selectPlayer['entryNo']=''">
           </input></td>
-          <td rowspan="5">
+          <td rowspan="6">
           <input class="form-control" ng-model="selectPlayer['name']" ng-init="selectPlayer['name']=''">
           </input></td>
           <td>
@@ -81,6 +81,18 @@
           </input></td>
           <td>
           <input class="form-control" ng-model="selectPlayer['torii5']" ng-init="selectPlayer['torii5']=''">
+          </input></td>
+          </input></td><td><a href="#" ng-click="moveDown(5)">▼</a></td>
+        </tr>
+        <tr>
+          <td>
+          <input class="form-control" ng-model="selectPlayer['name6']" ng-init="selectPlayer['name6']=''">
+          </input></td>
+          <td>
+          <input class="form-control" ng-model="selectPlayer['handleName6']" ng-init="selectPlayer['handleName6']=''">
+          </input></td>
+          <td>
+          <input class="form-control" ng-model="selectPlayer['torii6']" ng-init="selectPlayer['torii6']=''">
           </input></td>
         </tr>
       </table>

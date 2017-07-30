@@ -1,5 +1,13 @@
 <div class="victory" ng-if="victoryName() != null && current.header.victoryNameVisible">
-	<h1 class="cupTitle">○○杯</h1>
-	<h1 class="first">優勝</h1>
-	<h1 class="name">{{victoryName()}}</h1>
+  <h1 class="cupTitle">STU団体戦</h1>
+  <h1 class="first">優勝</h1>
+  <h1 class="name">{{victoryName().name}}</h1>
+  <h1 class="member">
+  {{victoryName().name1}}
+  &nbsp;&nbsp;{{victoryName().name2}}
+  &nbsp;&nbsp;{{victoryName().name3}}
+  <span ng-if="! victoryName().up4">&nbsp;&nbsp;{{victoryName().name4}}</span>
+  <span ng-if="! victoryName().up5">&nbsp;&nbsp;{{victoryName().name5}}</span>
+  <span ng-if="! victoryName().up6">&nbsp;&nbsp;{{victoryName().name6}}</span>  
+  </h1>
 </div>

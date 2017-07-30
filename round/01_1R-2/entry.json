@@ -6,10 +6,6 @@
 			"oper": "==",
 			"crit": 2
 		},
-		"order": ["entryNo"],
-		"profile": true,
-		"property": {
-			"lot": [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
-		}
+		"order": ["lotNo"]
 	}
 ]

@@ -9,106 +9,152 @@
 		"profile": true,
 		"css": "name",
 		"vtrans": 3.7
+	}, 	{
+		"key": "lot",
+		"style": "number",
+		"profile": true
+	}, 	{
+		"key": "lotNo",
+		"style": "number",
+		"profile": true
 	}, {
 		"key": "name1"      ,
 		"style": "string",
 		"profile": true,
 		"anonymous": false,
 		"css": "n name1",
-		"htrans": 3.7
+		"htrans": 3.7,
+		"up1":true
 	}, {
 		"key": "handleName1",
 		"style": "string",
 		"profile": true,
 		"anonymous": true ,
 		"css": "n name1",
-		"htrans": 3.7
+		"htrans": 3.7,
+		"up1":true
 	}, {
 		"key": "torii1"     ,
 		"style": "number",
 		"profile": true,
 		"css": "t torii1",
-		"repeatChar":";"
+		"repeatChar": ";",
+		"up1":true
 	}, {
 		"key": "name2"      ,
 		"style": "string",
 		"profile": true,
 		"anonymous": false,
 		"css": "n name2",
-		"htrans": 3.7
+		"htrans": 3.7,
+		"up2":true
 	}, {
 		"key": "handleName2",
 		"style": "string",
 		"profile": true,
 		"anonymous": true ,
 		"css": "n name2",
-		"htrans": 3.7
+		"htrans": 3.7,
+		"up2":true
 	}, {
 		"key": "torii2"     ,
 		"style": "number",
 		"profile": true,
 		"css": "t torii2",
-		"repeatChar":";"
+		"repeatChar": ";",
+		"up2":true
 	}, {
 		"key": "name3"      ,
 		"style": "string",
 		"profile": true,
 		"anonymous": false,
 		"css": "n name3",
-		"htrans": 3.7
+		"htrans": 3.7,
+		"up3":true
 	}, {
 		"key": "handleName3",
 		"style": "string",
 		"profile": true,
 		"anonymous": true ,
 		"css": "n name3",
-		"htrans": 3.7
+		"htrans": 3.7,
+		"up3":true
 	}, {
 		"key": "torii3"     ,
 		"style": "number",
 		"profile": true,
 		"css": "t torii3",
-		"repeatChar":";"
+		"repeatChar": ";",
+		"up3":true
 	}, {
 		"key": "name4"      ,
 		"style": "string",
 		"profile": true,
 		"anonymous": false,
 		"css": "n name4",
-		"htrans": 3.7
+		"htrans": 3.7,
+		"up4":true
 	}, {
 		"key": "handleName4",
 		"style": "string",
 		"profile": true,
 		"anonymous": true ,
 		"css": "n name4",
-		"htrans": 3.7
+		"htrans": 3.7,
+		"up4":true
 	}, {
 		"key": "torii4"     ,
 		"style": "number",
 		"profile": true,
 		"css": "t torii4",
-		"repeatChar":";"
+		"repeatChar": ";",
+		"up4":true
 	}, {
 		"key": "name5"      ,
 		"style": "string",
 		"profile": true,
 		"anonymous": false,
 		"css": "n name5",
-		"htrans": 3.7
+		"htrans": 3.7,
+		"up5":true
 	}, {
 		"key": "handleName5",
 		"style": "string",
 		"profile": true,
 		"anonymous": true ,
 		"css": "n name5",
-		"htrans": 3.7
+		"htrans": 3.7,
+		"up5":true
 	}, {
 		"key": "torii5"     ,
 		"style": "number",
 		"profile": true,
 		"css": "t torii5",
-		"repeatChar":";"
+		"repeatChar": ";",
+		"up5":true
+	}, {
+		"key": "name6"      ,
+		"style": "string",
+		"profile": true,
+		"anonymous": false,
+		"css": "n name6",
+		"htrans": 3.7,
+		"up6":true
+	}, {
+		"key": "handleName6",
+		"style": "string",
+		"profile": true,
+		"anonymous": true ,
+		"css": "n name6",
+		"htrans": 3.7,
+		"up6":true
+	}, {
+		"key": "torii6"     ,
+		"style": "number",
+		"profile": true,
+		"css": "t torii6",
+		"repeatChar": ";",
+		"up6":true
 	}, {
 		"key": "motion",
 		"style": "string",

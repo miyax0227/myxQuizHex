@@ -1,0 +1,13 @@
+[
+	{
+		"title": "決勝",
+		"maxRankDisplay": 1,
+		"openRankArray": null,
+		"winningPoint": 9,
+		"losingPoint": 4,
+		"penalty": 0,
+		"tweetRoundTitle": "[決勝]",
+		"lots": [1],
+		"norma": [0, 0, 0, 3, 3, 3]
+	}
+]
