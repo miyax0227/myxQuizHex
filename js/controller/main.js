@@ -241,9 +241,10 @@ app.config([ "$locationProvider", function($locationProvider) {
 			  var initCurrent = {};
 
 			  // 履歴ファイルの存在確認
-			  var fs = require('fs');
+			  var fs;
 			  try {
 				// ファイルが存在する場合
+				fs = require('fs');
 				initCurrent = JSON.parse(fs.readFileSync(qCommon.getHistoryFileName(), 'utf-8'));
 				qCommon.refreshCurrent(initCurrent, $scope);
 			  } catch (e) {
