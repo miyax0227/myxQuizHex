@@ -796,7 +796,7 @@ app
 		try {
 		  return __dirname + '/../../history/current/' + getRoundName() + '.json';
 		} catch (e) {
-		  return "";
+		  return '../../history/current/' + getRoundName() + '.json';
 		}
 	  }
 
@@ -810,7 +810,7 @@ app
 		try {
 		  return __dirname + '/../../history/current/' + getRoundName() + '-entry.json';
 		} catch (e) {
-		  return "";
+		  return '../../history/current/' + getRoundName() + '-entry.json';
 		}
 	  }
 
@@ -827,7 +827,7 @@ app
 		try {
 		  return __dirname + '/../../twitter/' + dateString() + "_" + getRoundName() + '.txt';
 		} catch (e) {
-		  return "";
+		  return '../../twitter/' + dateString() + "_" + getRoundName() + '.txt';
 		}
 	  }
 
