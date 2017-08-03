@@ -177,8 +177,8 @@ app.config([ "$locationProvider", function($locationProvider) {
 		  $scope.changePlayer = function(player) {
 			qCommon.changePlayer($scope, player);
 		  };
-		  
-		  /* decoration - 装飾用クラスリストを取得する　*/
+
+		  /* decoration - 装飾用クラスリストを取得する */
 		  $scope.decoration = round.decoration;
 
 		  /*********************************************************************
@@ -255,7 +255,12 @@ app.config([ "$locationProvider", function($locationProvider) {
 				initCurrent.header.tweets = [];
 				// プレイヤー部分の初期化
 				var entryFileName = qCommon.getEntryFileName();
-				var entryPlayers = JSON.parse(fs.readFileSync(entryFileName, 'utf-8'));
+				var entryPlayers;
+				try {
+				  entryPlayers = JSON.parse(fs.readFileSync(entryFileName, 'utf-8'));
+				} catch (e) {
+				  entryPlayers = JSON.parse(strs[1][1]);
+				}
 				initCurrent.players = qCommon.initPlayers(entryPlayers, $scope.items);
 				qCommon.refreshCurrent(initCurrent, $scope);
 			  }
