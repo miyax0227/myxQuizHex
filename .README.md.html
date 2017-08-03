@@ -673,12 +673,68 @@ function setDocumentScrollTop(ypos)
  <li>初期化(全体)<br /> 読み込み状態を初期化する。1. 招集(全体)を行う前の状態に戻る。</li> 
  <li>初期化(個別)<br /> 各ラウンドの状態を初期化する。3. ラウンド開始を行う前の状態に戻る。</li> 
  <li>Twitter<br /> Twitterウィンドウを開く。</li> 
- <li>フォルダ<br /> インストールしたフォルダを開く。</li> 
+ <li>フォルダ<br /> プログラムがインストールされたフォルダを開く。</li> 
 </ol> 
 <h3> <a id="操作ウィンドウ" class="anchor" href="#%E6%93%8D%E4%BD%9C%E3%82%A6%E3%82%A3%E3%83%B3%E3%83%89%E3%82%A6" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>操作ウィンドウ</h3> 
 <h4> <a id="全ラウンド共通" class="anchor" href="#%E5%85%A8%E3%83%A9%E3%82%A6%E3%83%B3%E3%83%89%E5%85%B1%E9%80%9A" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>全ラウンド共通</h4> 
-<h4> <a id="予選" class="anchor" href="#%E4%BA%88%E9%81%B8" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>予選</h4> 
-<h4> <a id="準決勝決勝" class="anchor" href="#%E6%BA%96%E6%B1%BA%E5%8B%9D%E6%B1%BA%E5%8B%9D" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>準決勝・決勝</h4> 
+<p><a href="https://camo.githubusercontent.com/1e8dad2553261b60b3bbefcb0bfd0557f93d3bb7/687474703a2f2f64726976652e676f6f676c652e636f6d2f75633f6578706f72743d766965772669643d304230304d79545f2d524b4355576e64485533464a617a4e6b526c6b" target="_blank"><img src="https://camo.githubusercontent.com/1e8dad2553261b60b3bbefcb0bfd0557f93d3bb7/687474703a2f2f64726976652e676f6f676c652e636f6d2f75633f6578706f72743d766965772669643d304230304d79545f2d524b4355576e64485533464a617a4e6b526c6b" alt="Operation Window Usage" data-canonical-src="http://drive.google.com/uc?export=view&amp;id=0B00MyT_-RKCUWndHU3FJazNkRlk" style="max-width:100%;" /></a></p> 
+<ol> 
+ <li> <strong>Basic</strong> 
+  <ol> 
+   <li> <strong>view</strong><br /> <strong>表示用ウィンドウを開く。</strong> 表示用ウィンドウはスクリーンに映写するためのウィンドウで、操作用ウィンドウの操作結果と同期している。</li> 
+   <li>edit<br /> エディット用のモーダル画面を開く。プレイヤー名や成績を変更できる。</li> 
+   <li>ss<br /> スクリーンショットを取得する。Twitter画面を開いている場合、指定したTwitterアカウントに取得したスクリーンショットを投稿できる。</li> 
+  </ol> </li> 
+ <li>Rule<br /> 各ラウンドの形式固有の操作を行う。スルー、組分け変更など。形式によってボタンの種類が異なる。</li> 
+ <li>View 
+  <ol> 
+   <li>award<br /> 優勝決定時に表示されるカットイン表示のON/OFF切替を行う。決勝ラウンドでのみ使用する。</li> 
+   <li>open<br /> 氏名が隠されたプレイヤーについて、上位から開示（いわゆる「ターンオーバー」）を行う。ペーパーテストの結果発表等で使用する。</li> 
+  </ol> </li> 
+ <li>History 
+  <ol> 
+   <li>undo<br /> 直前の操作を取り消す。</li> 
+   <li>redo<br /> 直前のundoを取り消す。</li> 
+  </ol> </li> 
+ <li>Playoff 
+  <ol> 
+   <li>regular<br /> プレーオフ状態から通常状態に戻す。</li> 
+   <li>playoff<br /> プレーオフを開始する。プレーオフでは、各プレイヤーの勝抜・失格・待機をワンボタンで変更できる。</li> 
+   <li>upper<br /> 勝抜または失格していないプレイヤーのうち、成績最上位のプレイヤーを勝抜にする。複数のプレイヤーがいる場合は当該プレイヤー以外を待機状態にしてプレーオフを開始する。</li> 
+   <li>lower<br /> 勝抜または失格していないプレイヤーのうち、成績最下位のプレイヤーを失格にする。複数のプレイヤーがいる場合は当該プレイヤー以外を待機状態にしてプレーオフを開始する。</li> 
+  </ol> </li> 
+ <li>Timer 
+  <ol> 
+   <li>start/reset<br /> タイマーを開始する。または開始時の時間に戻す。</li> 
+   <li>stop/restart<br /> タイマーを一時停止する。または一時停止状態から最下位する。</li> 
+   <li>show/hide<br /> タイマーの表示/非表示を切り替える。</li> 
+  </ol> </li> 
+</ol> 
+<h4> <a id="予選--demo" class="anchor" href="#%E4%BA%88%E9%81%B8--demo" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>予選 <a href="https://miyax0227.github.io/myxQuizHex/round/01_1R-1/board.html">Demo</a> </h4> 
+<ol> 
+ <li>プレイヤー固有ボタン 
+  <ol> 
+   <li>「○」(青色) - 正解</li> 
+   <li>「&times;」(赤色) 1～6 - 不正解（プレイヤー毎）</li> 
+  </ol> </li> 
+ <li>Rule 
+  <ol> 
+   <li>「thru」 - スルー</li> 
+   <li>「1」～「3」 - ペアの変更　<strong>ラウンド開始時に必ず「1」を押下して、第1ペアを選択すること。</strong> </li> 
+  </ol> </li> 
+</ol> 
+<h4> <a id="準決勝決勝-demo" class="anchor" href="#%E6%BA%96%E6%B1%BA%E5%8B%9D%E6%B1%BA%E5%8B%9D-demo" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>準決勝・決勝 <a href="https://miyax0227.github.io/myxQuizHex/round/02_SF/board.html">Demo</a> </h4> 
+<ol> 
+ <li>プレイヤー固有ボタン 
+  <ol> 
+   <li>「○」(青色) - 正解</li> 
+   <li>「&times;」(赤色) - 不正解</li> 
+  </ol> </li> 
+ <li>Rule 
+  <ol> 
+   <li>「thru」 - スルー</li> 
+  </ol> </li> 
+</ol> 
 <h3> <a id="twitterウィンドウ" class="anchor" href="#twitter%E3%82%A6%E3%82%A3%E3%83%B3%E3%83%89%E3%82%A6" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Twitterウィンドウ</h3> 
 <h2> <a id="カスタマイズ方法" class="anchor" href="#%E3%82%AB%E3%82%B9%E3%82%BF%E3%83%9E%E3%82%A4%E3%82%BA%E6%96%B9%E6%B3%95" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>カスタマイズ方法</h2> 
 <h3> <a id="ウィンドウの表示位置サイズの変更" class="anchor" href="#%E3%82%A6%E3%82%A3%E3%83%B3%E3%83%89%E3%82%A6%E3%81%AE%E8%A1%A8%E7%A4%BA%E4%BD%8D%E7%BD%AE%E3%82%B5%E3%82%A4%E3%82%BA%E3%81%AE%E5%A4%89%E6%9B%B4" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>ウィンドウの表示位置・サイズの変更</h3> 
