@@ -259,7 +259,7 @@ app.config([ "$locationProvider", function($locationProvider) {
 				try {
 				  entryPlayers = JSON.parse(fs.readFileSync(entryFileName, 'utf-8'));
 				} catch (e) {
-				  entryPlayers = JSON.parse(strs[1][1]);
+				  entryPlayers = strs[1][1];
 				}
 				initCurrent.players = qCommon.initPlayers(entryPlayers, $scope.items);
 				qCommon.refreshCurrent(initCurrent, $scope);
