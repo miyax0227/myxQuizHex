@@ -153,8 +153,17 @@
 ### Excelファイル読み込み時の対象ワークシートの変更
 `/json/excel.json`で変更可能です。
 
+### ライセンス
+Copyright (C) 2017 R. MIYAMOTO
+Licensed under MIT
+
+Includes MigMix Font
+Copyright (C) 2002-2015 M+ FONTS PROJECT
+Copyright(c) Information-technology Promotion Agency, Japan (IPA), 2003-2011.
+http://mix-mplus-ipa.osdn.jp/migmix/IPA_Font_License_Agreement_v1.0.txt
+
 ## 作成者
-Ryoh MIYAMOTO (Miyax)  
+R. MIYAMOTO (Miyax)  
 [Github](https://github.com/miyax0227)  
 [Twitter](https://twitter.com/mi_yax)  
 
