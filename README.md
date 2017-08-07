@@ -155,13 +155,13 @@
 `/json/excel.json`で変更可能です。
 
 ### ライセンス
-Copyright (C) 2017 R. MIYAMOTO　　
-Licensed under MIT　　
-　　
-Includes MigMix Font　　
-Copyright (C) 2002-2015 M+ FONTS PROJECT　　
-Copyright(c) Information-technology Promotion Agency, Japan (IPA), 2003-2011.　　
-http://mix-mplus-ipa.osdn.jp/migmix/IPA_Font_License_Agreement_v1.0.txt　　
+Copyright (C) 2017 R. MIYAMOTO  
+Licensed under MIT  
+  
+Includes MigMix Font  
+Copyright (C) 2002-2015 M+ FONTS PROJECT  
+Copyright(c) Information-technology Promotion Agency, Japan (IPA), 2003-2011.  
+http://mix-mplus-ipa.osdn.jp/migmix/IPA_Font_License_Agreement_v1.0.txt  
 
 ## 作成者
 R. MIYAMOTO (Miyax)  
