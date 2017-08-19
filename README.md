@@ -65,8 +65,8 @@
 ### メニューウィンドウ
 ![Menu Window Usage](http://drive.google.com/uc?export=view&id=0B00MyT_-RKCUYlEzTzJORHZURE0)
 1.  **招集(全体)**   
-     **最初に実施する。** Excel形式のエントリーリストを読み込む。ファイルを選択するとウィンドウ下部にプレビューが表示され、OKボタン押下により読み込みが完了する。
-     ![エントリーリストのサンプル](https://drive.google.com/open?id=0B00MyT_-RKCUMTU3VEp5dGFYSzA)
+     **最初に実施する。** Excel形式のエントリーリストを読み込む。ファイルを選択するとウィンドウ下部にプレビューが表示され、OKボタン押下により読み込みが完了する。  
+     [エントリーリストのサンプル](https://drive.google.com/open?id=0B00MyT_-RKCUMTU3VEp5dGFYSzA)
 1.  **招集(個別)**  
     **各ラウンドの実行前に実施する。** エントリーリストまたは前ラウンドの結果から各ラウンドに参加する人を読み込む。画面下部にプレビューが表示される。OKボタン押下により読み込みが完了する。
 1. **ラウンド開始**  
