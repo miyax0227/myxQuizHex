@@ -6,7 +6,8 @@
 		{"source":"01_1R-3","filter":{"param":"rank","oper":"~","crit":1,"crit2":2},"order":["rank"]},
 		{"source":"01_1R-4","filter":{"param":"rank","oper":"~","crit":1,"crit2":2},"order":["rank"]},
 		{"source":"01_1R-5","filter":{"param":"rank","oper":"~","crit":1,"crit2":2},"order":["rank"]},
-		{"source":"01_1R-6","filter":{"param":"rank","oper":"~","crit":1,"crit2":2},"order":["rank"]}
+		{"source":"01_1R-6","filter":{"param":"rank","oper":"~","crit":1,"crit2":2},"order":["rank"]},
+		{"source":"01_1R-7","filter":{"param":"rank","oper":"~","crit":1,"crit2":2},"order":["rank"]}
 		],
 		"profile": true
 	}
